@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#A0C3D6"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw_yashil"
+        android:layout_margin="15dp"
+        android:textSize="30sp"
+        android:text="Yashil  "/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sw_kok"
+        android:layout_margin="15dp"
+        android:textSize="30sp"
+        android:text="Ko'k     "/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/sw_qizil"
+        android:textSize="30sp"
+        android:text="Qizil     "/>
+
+</LinearLayout>
